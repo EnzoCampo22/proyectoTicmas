@@ -24,3 +24,21 @@ document.getElementById("boton_direccion").onclick = function(){
 document.getElementById("boton_telefono").onclick = function(){
     parrafo.innerHTML = "Tel: 3313901239239"
 }
+
+var x = document.getElementById("pruebalocalizacion")
+
+function getLocation(){
+    if (navigator.geolocation){
+        navigator.geolocation.getCurrentPosition(showPosition);
+    }else{
+        x.innerHTML = "el servicio de geolocalizacion no está permitida en este navegador"
+    }
+    
+}
+
+function showPosition(position){
+    x.innerHTML = "latitud: " + position.coords.latitude + "<br>Longitud: " + position.coords.longitude;
+}
+
+
+

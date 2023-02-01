@@ -138,3 +138,10 @@ p{
     cursor: col-resize;
     text-align: center;
 }
+
+.localizacion{
+    width: 200px;
+    margin-right: auto;
+    margin-top: 2px;
+    
+}

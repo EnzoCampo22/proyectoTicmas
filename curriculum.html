@@ -15,9 +15,16 @@
 </head>
 <body>
   <header>
-    <div id="localizacion">
-      Tu te encuentras acá
-    </div>
+    <!-- aca vamos a usar un rato el java para saber donde andamos-->
+    <div class="localizacion" >
+      <p >toca el botón de abajo para poder ver tu localizacion
+        <button onclick="getLocation()"> touch me </button>
+        <p id="pruebalocalizacion"></p>
+        <script src="/javaCurriculum.js"></script>
+      </p>
+      
+
+  </div>
     <form id="formularioChico" action="/action_page.php" method="get">
       <label class="labelGeneral" >Email de usuario</label>
       <input type="text" placeholder="Ingrese su mail">
