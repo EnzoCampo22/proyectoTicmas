@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport">
+    <title>Document</title>
+  <!-- aca vamos a usar el icono de w3scholls, como tributo a esta gran página-->
+    <link rel="icon" href="https://www.w3schools.com/favicon.ico">
+    <link rel="stylesheet" href="curriculumStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div id="localizacion">
+      Tu te encuentras acá
+    </div>
+    <form id="formularioChico" action="/action_page.php" method="get">
+      <label class="labelGeneral" >Email de usuario</label>
+      <input type="text" placeholder="Ingrese su mail">
+      <label class="labelGeneral" >Ingrese su contraseña </label>
+      <input type= "password" placeholder="Ingrese su contraseña">
+      <input type="submit" value="Ingresar">
+    </form>
+  </header>
+  <nav id="navCentrado">
+    <h1>Bienvenidos a mi CV</h1>
+    <p>Let's go</p>
+  </nav>
+  <article class="tarjeta_presentacion" style="display: list-item;">
+    <div id="imagen_usuario" >
+      <img src="https://randomuser.me/api/portraits/women/51.jpg" alt="image not found">
+    </div>
+    <div id="información_de_tarjeta">
+      <p id="información_mostrada">
+        toca los botones de abajo para ver la información solicitada
+      </p>
+    </div>
+    <div class="botones">
+      <li aria-colcount="1">Biografia
+        <button id="boton_biografia">
+        </button>
+        
+      </li>  
+      <li aria-colcount="1">Email
+        <button id="boton_email">
+        </button>
+        
+      </li>
+      <li aria-colcount="1">Fecha de nacimiento
+        <button id="boton_calendario"></button>
+      </li>
+      <li aria-colcount="1">Direccion
+        <button id="boton_direccion"></button>
+      </li>
+      <li aria-colcount="1">Telefono
+        <button id="boton_telefono"></button>
+      </li>
+      <script src="/javaCurriculum.js"></script>
+    </div>
+  </article>
+  <aside>
+    ¿no sabes como armar tu curriculum? no te preocupes nosotros te enseñamos
+    <div id="video_curriculum">
+      
+      <iframe width="128" height="128" src="https://www.youtube.com/embed/0TBDXtOPdIs" title="COMO CREAR UN CV SIN EXPERIENCIA LABORAL EN WORD ( PASO A PASO)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </aside>
+  <footer>
+    <div class="quienes_somos">
+      <h2 style="background-color: white; border: outset red; margin-top: 0cm; margin-left: 0cm; margin-right: 0cm; margin-bottom: 0cm;">¿quienes somos?</h2>
+      <h2 id="texto_quienes_somos">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+      </h2>
+    </div>
+  </footer>
+
+ 
+    
+</body>
+</html>

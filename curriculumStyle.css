@@ -1,0 +1,140 @@
+#navCentrado{
+    width: 200px ;
+    text-align: center;
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: solid black;
+    background-color: white;
+    position: relative;
+
+}
+*{
+    background-color: #E4B5AB;
+
+}
+h1{
+    background-color: whitesmoke;
+    position: relative;
+    margin: 5px;
+}
+p{
+    background-color: azure;
+    position: relative;
+    margin: 5px;
+}
+
+#formularioChico{
+
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: end;
+    position: relative;
+}
+
+::placeholder{
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+
+}
+
+.labelGeneral{
+
+    background-color: whitesmoke;
+    border: solid black;
+    position: relative;
+}
+#imagen_usuario{
+    width: 128px ;
+    text-align: center;
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    border: solid black;
+    background-color: white;
+    position: relative;
+}
+#información_de_tarjeta{
+    width: 128px ;
+    text-align: center;
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    border: solid black;
+    background-color: white;
+    position: relative;
+    
+}
+#información_mostrada{
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+.botones{
+    text-align: center;
+}
+.imagenes_botones{
+    width: 30px;
+    padding: 0px;
+}
+#boton_biografia{
+    background-size: cover;
+    background-image: url(https://us.123rf.com/450wm/tanyastock/tanyastock1609/tanyastock160900376/62026756-icono-de-usuario-s%C3%ADmbolo-de-la-persona-humana-bot%C3%B3n-de-c%C3%ADrculo-azul-con-el-icono-de-banda-plana-vect.jpg?ver=6);
+    width: 25px;
+    height: 25px;
+}
+#boton_email{
+    background-size: cover;
+    background-image: url(https://www.pngmart.com/files/3/Send-Email-Button-PNG-Photos.png);
+    width: 25px;
+    height: 25px;
+
+}
+#boton_calendario{
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/010/977/232/non_2x/wooden-calendar-button-wooden-icon-png.png);
+}
+#boton_direccion{
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/4820/4820122.png);
+    background-color: whitesmoke;
+}   
+#boton_telefono{
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAclBMVEX///8AAABTU1P5+fk9PT38/PyOjo6Hh4fo6Og1NTXf39/S0tJiYmIwMDBaWlqenp6kpKSAgIDy8vLIyMjAwMBnZ2e3t7eYmJglJSXk5OTDw8NISEisrKxDQ0O6urobGxsQEBB2dnYrKytNTU3W1tYTExM+B2HdAAAITklEQVR4nO2d61riMBCGsUAtB0FaQHFB6Yr3f4v7oCIyyUxOX1qW5v0NaaZtJnPKtNdLJBKJRCKRSCQSiUQikUgkEolEIpHoEGVRbef3q2w3ejgy2mWr+/m2Ksq2JwZgWLzms9Edx2iWvxbDtifpz2E+3bPCndlP54e2p+pBuV1ZCHdmtf2vXtniceAk3heDx6LtidvRX797iPfF+7rf9vSNjBfe4n2xGLctgkiVBcp3JKvaFoNl6bP6dAyWbYuiZclve+6Mrk/GCer5nRhM2hbpgmIKlu/I9Io2j6cI8h15aluwbyYPkQS8u3u4ilc1dAOUWbQtXm/8bD/b50E2Xa1W02zg8qeWLYBHq1lO8/Vhc2mP9TeHdW6nnx5bku1zmjPj9N7zSnIayio3W7Gz1ozV8Zs8s7f6xWZu/ZfaNFBLb+qrOKv9wkUPThayr/waTQqBuTSjbOkamxguRat9HkUGEWmT8PSARM+r8W1DUIO5fzyizPlhp8DZW8C/UXmY4uvzMmaguVvxh5tFHR5PKmtu8D+AmVvCCTjAaPUD54k1JiL3iuKMD85UauhFZZTMO9KdKxhLpxF1w6h09IbFbLcNbBrMlfFx+UMzd1JBb6plMbIrQ/16j2zAjbUXvY90tXvt1aKa4X2tE7CNdr2t7nJvMZ0prT/4EvGCL7oLzuJdT7tNxQ0WafVNNK9fuwhjO6eNXlQXP4rvfetEfI5zKd1W30Q8c6K5bpSNX3ehmErmjE7dxLi1msh2vG3iEs2m8YC/iiY3EWujV9Fs/fCcRqFeo0mfW2PAoTNTGpepyUqfoXp5sCOlUTPNVvlodn6sslHjCk0HMFWvbYAcfqkM/276S1EdsBay6vUjc/1qEYK8zqvFcW/ZQ5+zqutGuMHVRyjZvmX+k4OAqlvV7sc9RGUVSkvgYu+CKjynaThRKTeP16NU6SLNHlWfoqqnlO22Zn+q2lcb0CSO1HRw0CpQ3Rc2dK8xIP9iJvFJqYyOcd4UrynnfqlzP6COjpK2gQzeV+bM7nMfOgmR25bDXBxYWz9CrjQKWN+sPMQ1YFDFluAmrLGOvwCmjJSVaLStzCimBPvqq3aB8am7oyiFcCdKsSRY9VWzEgLdAEWxh0cWqSHBb0FCBe0eZ4TTzTnYrlFefFYzqpvVL3DWm7IWQvUY3cP3rGeviXP8Ama9DWlpUejI9OQLv8XKEuKsN6prVoHj0YnyOsMgIcyRUgynsOGoOf/G/9QgIcT6+IRm+MICRjQ6wnsVsqZBSliTgcMiCTSIKITxh3LhLy5uRIP8QXp6SG1p6UHIpbC4nB81vz9CArd0bYlWoD7rfgIYP6a3MsRwo5UXooEpVtQis1TUwQipzqBjiXERSdVA8300bhRi2NPKBNlCYisWwUkceitDKheoMS3/mq2LHoHrQ+jw/iPRm2XQy9ye/4w+xEz3MP/x6ZRNL7y+TAsuoKIe/JUpXdKmoIhem4aaxio0dOQfGKauk9EC1EqIT8RRa9nfgaKqw+gBMbW96KKbDewWUivFqBKZcNszWJdSu82/ZIK6v+Z/MBsGutaODO+/0olutKi1UmIMwXdZC3Fj/A2K3eVANg6QtiL0Dl1cRAKAO++BiEljdau4mCK0QIy8XP5GDSn0snI1tfmnI8jiEGLU+JeAEQntFnTNiQjcM4gKbFhC1ona4+q02pVQTcf9iAgzUGNJaBvyYc8/w0SErUMfXdrTZWrRIsJ0qcd++IlanvIDRt3A9kN3m+YbIewG2TRgNo27XXqCD9lAChfIkP52qbNv8YMUd1MMuL5re0Gcb+HsH55hTZs7GgzZ1Heu52tx/qGzj/8LqSfI7/zOKebiEvXH+fiucZoLakHEn/OK5VkrZvavKi5O4xpru0TqAvHwJc74wp20nigu1uYYLyUMpe5K++MbTxerrcbAxUsdY96UUmzKstYYBju7p0H+FVIN7Za3UJAT39r2nzZ5JGTewin3pEF/bFhEyKOfQOaenPKHOpgj5xLm1lfI/KFTDliLh4jGDRyZA3bK4+vxEVFeWNA8vkstBgdcRGgthks9DcvYpiE0QbLDavLbsMSPQ00UT+HQYu8bqcIfWxPlUNcm0HdvbsprD3Bdm0NtotMwARKiaxPt60tlhCZeOj5YpQ2vL7WvETYgd+ij8MoUXiPsUOdtYPzXQULeH4bXeTvU6pvoOyxGdhlGqNW3P29hhksuKvBnUCKct7A/M2NBYdnzmw2XxDgz43DuyQarttEf7N+jnHsCnxcbC8Fi47TjnF1zOH9oh3E18uoxzvlDlzOkdvQNDbJZ5RHrDKnLOWBLNtLGwYdKavpTVN2qy1luWzbKbE/wRlO8s9xxDsLr+81KUZp45/EdeyrYUykPUuqrE7OngnNfDGuGk6fs5B+/TcXv6ETti+HT28SeYbmpXqpDafDL4vY2uf3+NB3oMXT7faI60Ovr9vu1daDnXgf6Jt5+78sO9C/tQA/aNvoIa2urIn496OZ7QXegn/ft92TvQF/9DnwboQPft+jAN0o68J0Z4VtBmNXY/reCOvC9pw58s6sD313rwLfzOvD9ww58w7ID3yHtwLdke7f/PeBeB77p3Lv973L3OvBt9Z5loZMHEXITvhR2OsONKTy7FMTEvZRbZnAtL+iZpWXdoRUjaI4exhL1HAfXKd+RSrSeLclglU5RED0gGzw9rybpr82WJse7WDN0RRSPPity8Hhd24OBcut2TGa1hXdXbIDDfGpzbG0/nTdbfQRlWLzmM36jHM3y16LJyqNYlEW1nd+vst3o4chol63u59vKteFHIpFIJBKJRCKRSCQSiUQikUgkEonE/80/mXBppLI+6fcAAAAASUVORK5CYII=);
+}
+.quienes_somos{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 1px solid lightblue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    background: white;
+
+}
+#texto_quienes_somos{
+    background-color: white;
+    border: inset red;
+    margin-top: 1px;
+}
+#video_curriculum{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    columns: 4;
+    cursor: col-resize;
+    text-align: center;
+}
